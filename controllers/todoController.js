@@ -54,7 +54,7 @@ exports.update = (req) => {
       if (!todo) {
         return { err: 'Not Found!' };
       }
-
+      // TODO: test if need any unstringnify of JSON
       todo.id = req.payload.id;
       todo.title = req.payload.title;
       todo.content = req.payload.content;
