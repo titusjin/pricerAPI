@@ -1,0 +1,19 @@
+{
+  "name": "hapiapi",
+  "version": "1.0.0",
+  "description": "one example",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hapi"
+  ],
+  "author": "titus.jin",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "hapi": "^18.1.0",
+    "mongoose": "^7.5.1"
+  }
+}
